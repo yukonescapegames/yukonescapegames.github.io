@@ -1,6 +1,6 @@
 /*
     Name: Mountain
-    Description: Responsive Coming Soon 
+    Description: Responsive Coming Soon
     Version: 1.4
     Author: MountainTheme
 
@@ -55,7 +55,7 @@ html, body {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background-image: url('../images/overlay.png'); 
+	background-image: url('../images/overlay.png');
 	background-color: rgba(95,96,96,0.4);
 	z-index: 1;
 }
@@ -67,7 +67,7 @@ html, body {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background-image: url('../images/overlay.png'); 
+	background-image: url('../images/overlay.png');
 	background-color: rgba(95,96,96,0.4);
 	z-index: 1;
 }
@@ -120,7 +120,7 @@ html, body {
 header {
 	text-align:center;
 	height: 100%;
-	padding-top: 230px;
+	padding-top: 50px;
 	}
 
 header h1 {
@@ -136,7 +136,7 @@ header h1 {
 header p {
     font-size: 14px;
 	color: rgba(236,240,241,0.9);
-	word-spacing: 1px; 
+	word-spacing: 1px;
 	line-height: 25px;
 	padding-bottom:10px;
 }
@@ -172,14 +172,14 @@ header .mouse a {
 
 @-webkit-keyframes wobbleArrow
  {
- from   { 
+ from   {
 
- bottom: 40px; 
+ bottom: 40px;
 
  }
- to { 
+ to {
 
- bottom: 50px; 
+ bottom: 50px;
 
  }
  }
@@ -222,51 +222,51 @@ header .mouse a {
 }
 
 .services .icon i.fa {
-	height: 175px;  
-	width: 175px;  
-	line-height: 175px; 
-	max-width: 100%;  
+	height: 175px;
+	width: 175px;
+	line-height: 175px;
+	max-width: 100%;
 	background: #16b6ea;
 	position: relative;
 	margin: 0 auto;
 	display:block;
 	font-size: 55px;
-	border-radius: 50%;  
-	-o-border-radius: 50%;  
-	-moz-border-radius: 50%; 
+	border-radius: 50%;
+	-o-border-radius: 50%;
+	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-bottom: none;
 	color: rgba(255, 255, 255, 1);
 	margin: 0 auto 45px auto;
-	text-shadow: rgb(19, 155, 199) 1px 1px,     
-	rgb(19, 155, 199) 2px 2px,      
-	rgb(19, 155, 199) 3px 3px,      
-	rgb(19, 155, 199) 4px 4px,      
-	rgb(19, 155, 199) 5px 5px,      
-	rgb(19, 155, 199) 6px 6px,     
-	rgb(19, 155, 199) 7px 7px,      
-	rgb(19, 155, 199) 8px 8px,      
-	rgb(19, 155, 199) 9px 9px,      
-	rgb(19, 155, 199) 10px 10px,      
-	rgb(19, 155, 199) 11px 11px,      
-	rgb(19, 155, 199) 12px 12px,      
-	rgb(19, 156, 200) 13px 13px,      
-	rgb(19, 158, 202) 14px 14px,      
-	rgb(19, 159, 204) 15px 15px,      
-	rgb(19, 161, 206) 16px 16px,      
-	rgb(19, 162, 208) 17px 17px,      
-	rgb(20, 164, 210) 18px 18px,      
-	rgb(20, 165, 212) 19px 19px,      
-	rgb(20, 167, 214) 20px 20px,      
-	rgb(20, 168, 216) 21px 21px,      
-	rgb(20, 170, 218) 22px 22px,      
-	rgb(20, 171, 220) 23px 23px,      
-	rgb(21, 173, 222) 24px 24px,      
-	rgb(21, 174, 224) 25px 25px,      
-	rgb(21, 176, 226) 26px 26px,      
-	rgb(21, 177, 228) 27px 27px,      
-	rgb(21, 179, 230) 28px 28px,      
-	rgb(21, 180, 232) 29px 29px,      
+	text-shadow: rgb(19, 155, 199) 1px 1px,
+	rgb(19, 155, 199) 2px 2px,
+	rgb(19, 155, 199) 3px 3px,
+	rgb(19, 155, 199) 4px 4px,
+	rgb(19, 155, 199) 5px 5px,
+	rgb(19, 155, 199) 6px 6px,
+	rgb(19, 155, 199) 7px 7px,
+	rgb(19, 155, 199) 8px 8px,
+	rgb(19, 155, 199) 9px 9px,
+	rgb(19, 155, 199) 10px 10px,
+	rgb(19, 155, 199) 11px 11px,
+	rgb(19, 155, 199) 12px 12px,
+	rgb(19, 156, 200) 13px 13px,
+	rgb(19, 158, 202) 14px 14px,
+	rgb(19, 159, 204) 15px 15px,
+	rgb(19, 161, 206) 16px 16px,
+	rgb(19, 162, 208) 17px 17px,
+	rgb(20, 164, 210) 18px 18px,
+	rgb(20, 165, 212) 19px 19px,
+	rgb(20, 167, 214) 20px 20px,
+	rgb(20, 168, 216) 21px 21px,
+	rgb(20, 170, 218) 22px 22px,
+	rgb(20, 171, 220) 23px 23px,
+	rgb(21, 173, 222) 24px 24px,
+	rgb(21, 174, 224) 25px 25px,
+	rgb(21, 176, 226) 26px 26px,
+	rgb(21, 177, 228) 27px 27px,
+	rgb(21, 179, 230) 28px 28px,
+	rgb(21, 180, 232) 29px 29px,
 	rgb(22, 182, 234) 30px 30px;
 }
 
@@ -281,10 +281,10 @@ header .mouse a {
 }
 
 .services h2:after {
-	content: " ";  
-    border: solid 2px #16b6ea;  
-    display: block;  
-    width: 35px;  
+	content: " ";
+    border: solid 2px #16b6ea;
+    display: block;
+    width: 35px;
     margin: 20px auto;
 }
 
@@ -305,13 +305,13 @@ header .mouse a {
 .subscribe {
 	padding: 130px 0 110px;
 	z-index: 10;
-	background: url('../images/keyboard-bg.jpg')  no-repeat center center; 
-	-webkit-background-size: cover; 
+	background: url('../images/keyboard-bg.jpg')  no-repeat center center;
+	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	 -o-background-size: cover; 
-	 background-size: cover; 
+	 -o-background-size: cover;
+	 background-size: cover;
 	 background-attachment: fixed;
-	
+
 }
 
 .subscribe h2 {
@@ -319,7 +319,7 @@ header .mouse a {
 	font-weight: 300;
 	color: #FFFFFF;
 	text-align:center;
-	letter-spacing: 1px;  
+	letter-spacing: 1px;
 	text-transform: uppercase;
 	padding: 0 0 27px 0;
 	font-family: "Iceberg", sans-serif;
@@ -336,11 +336,11 @@ header .mouse a {
 	text-align:center;
 }
 
-.subscribe input[type=text] { 
-	background-color: rgba(255, 255, 255, 0.1); 
+.subscribe input[type=text] {
+	background-color: rgba(255, 255, 255, 0.1);
 	border: solid 1px rgba(255, 255, 255, 0.17);
 	height: 54px;
-	width: 30%; 
+	width: 30%;
 	color: #fff;
 	word-spacing: 1px;
 	padding-left: 20px;
@@ -349,10 +349,10 @@ header .mouse a {
 	outline: none;
 }
 
-.subscribe button {	
-	background-color: rgba(22, 182, 234, 0.52); 
+.subscribe button {
+	background-color: rgba(22, 182, 234, 0.52);
 	border: 1px solid rgba(22, 182, 234, 0.52);
-	color: #fff; 
+	color: #fff;
 	width: 9%;
 	word-spacing: 1px;
 	outline: none;
@@ -361,16 +361,16 @@ header .mouse a {
 	font-weight: 700;
 	padding-top: 1px;
 	height: 54px;
-	transition: all 0.5s ease; 
-	-moz-transition: all 0.5s ease; 
-	-webkit-transition: all 0.5s ease; 
-	-o-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
 }
 
-.subscribe button:hover { 
-	background: transparent; 
+.subscribe button:hover {
+	background: transparent;
 	border: solid 1px rgba(255, 255, 255, 0.17);
-	color: #fff; 
+	color: #fff;
 }
 
 .subscribe label {
@@ -407,7 +407,7 @@ header .mouse a {
 	font-weight: 300;
 	color: #000;
 	text-align:center;
-	letter-spacing: 1px;  
+	letter-spacing: 1px;
 	text-transform: uppercase;
 	padding: 0 0 57px 0;
 	font-family: "Iceberg", sans-serif;
@@ -469,10 +469,10 @@ header .mouse a {
     border-right: none;
 }
 
-.contact input[type='submit'] {	
-	background-color: rgba(22, 182, 234, 0); 
+.contact input[type='submit'] {
+	background-color: rgba(22, 182, 234, 0);
 	border: 2px solid #16b6ea;
-	color: #737373; 
+	color: #737373;
 	width:12%;
 	display:block;
 	margin:0 auto;
@@ -490,9 +490,9 @@ header .mouse a {
     transition: all 0.3s ease-in-out !important;
 }
 
-.contact input[type="submit"]:hover { 
-	background: #16b6ea; 
-	color: #fff; 
+.contact input[type="submit"]:hover {
+	background: #16b6ea;
+	color: #fff;
 }
 
 .contact .error .email {
@@ -652,10 +652,10 @@ footer .social-icon li {
 
 footer .social-icon li i.fa {
 	color: rgba(236,240,241,0.4);
-	transition: all 0.5s ease; 
-	-moz-transition: all 0.5s ease; 
-	-webkit-transition: all 0.5s ease; 
-	-o-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
 }
 
 footer .social-icon li:hover i.fa {
@@ -672,10 +672,10 @@ footer .copyright {
 }
 
 footer a {
-	transition: all 0.5s ease; 
-	-moz-transition: all 0.5s ease; 
-	-webkit-transition: all 0.5s ease; 
-	-o-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
 	color: rgba(236,240,241,0.4);
 }
 
@@ -723,7 +723,7 @@ footer a:hover {
 	.services .col-md-4 {
 		margin-bottom: 40px;
 	}
-	
+
 	.subscribe button {
 		width: 10%;
 	}
@@ -764,7 +764,7 @@ footer a:hover {
 	}
 
 
-   
+
 
 	header {
 		padding-top: 10px;
@@ -861,8 +861,8 @@ footer a:hover {
 		padding-top: 279px;
 	}
 
-	
-	
+
+
 }
 
 
