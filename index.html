@@ -23,17 +23,53 @@
       <link rel="stylesheet" type="text/css" href="css/animate.css">
       <!-- Font Awesome CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-      <!-- Custom styles CSS -->
-      <link rel="stylesheet" type="text/css" href="css/style.css">
       <!-- Bootstrap v3.3.1 -->
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- Custom styles CSS -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
       <!-- Favicons -->
       <link rel="shortcut icon" href="images/favicon.ico">
 
   </head>
 
-  <body>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Yukon Escape Games</a>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#q-and-a" class="page-scroll">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 <!--= LOADER TEMPLATE -->
 <div class="page-loader">
             <div class="loader-icon"><img src="images/spinner.gif" alt=""></div>
@@ -80,18 +116,15 @@
              </div>
              <h2>What is it?</h2>
              <p>Escape Rooms are a new type of business that have been gaining in popularity over the past half
-
               decade. Sometimes they are referred to Exit Games or Puzzle Rooms. They are team oriented
-
               games designed to challenge and excite players into solving a common problem; usually this
-
               means escaping from a locked room in a certain amount of time!</p>
           </div>
            <div class="col-md-4" data-sr="wait 0.25s, then enter top and move 40px over 1s">
              <div class="icon">
                 <i class="fa fa-hourglass fa-fw"></i>
              </div>
-             <h2>How it works.</h2>
+             <h2>How it works</h2>
              <p>Typically, an escape room is designed to lock you in a room and give you an allotted amount of
                 time to get out by solving a series of puzzles and unlocking a series of locks. Normally, a time
                 limit of 45 minutes to 60 minutes is imposed to beat the room. Teams that succeed in escaping
@@ -116,9 +149,41 @@
 </section>
 <!-- END SERVICES -->
 
+<section class="escape-room" id="escape-room">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h2>The Room</h2>
+        <ul class="room-details">
+          <li>
+            <strong>Theme:</strong> The Klondike Gold Rush
+          </li>
+          <li>
+            <strong>Difficulty:</strong> 4/5
+          </li>
+          <li>
+            <strong>Scary Factor:</strong> 0/5
+          </li>
+          <li>
+            <strong>Time:</strong> 60 minutes
+          </li>
+          <li>
+            <strong>Players:</strong> 2 to 5
+          </li>
+        </ul>
+        <p>
+          This is our first and only room.
+          This room takes place in 1980, Yukon. Your brother has just inherited your great-uncle's old log cabin. No one has been in the cabin since the 60s. It was always rumoured that your great-uncle, Crazy Bill, found some gold in Dawson City and kept it to himself and hid it in his cabin. No one has ever seen it. You and your siblings/friends decide to travel with your brother as he travels to the Yukon to claim his cabin.
+          <br><br>
+          Seeing as you did not inherit anything from your great-uncle, you are a tad bit jealous. In fact, you are so jealous that you decide to take the key from your brother while he sleeps and attempt to find the gold on your own before your bother wakes up. You have 60 minutes to find the gold. Are you smart enough? Are you fast enough to find the hidden gold before you have the chance to get caught? Come find out. We dare you.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- SUBSCRIBE -->
-<section class="subscribe">
+<!-- <section class="subscribe">
     <div class="container">
         <div class="row">
           <h2 data-sr="wait 0.5s, then enter top and move 40px over 1s"><i class="fa fa-paper-plane"></i>SUBSCRIBE TO OUR NEWSLETTER</h2>
@@ -129,9 +194,63 @@
             </form>
      </div>
   </div>
-</section>
+</section> -->
 <!-- END SUBSCRIBE -->
 
+<section class="q-and-a" id="q-and-a">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h2>Frequently Asked Questions</h2>
+        <p>
+          <b>Q: Will we be locked in the room?</b>
+          <br>
+          A: Yes. Although you will be watched from wireless cameras at all times to prevent any emergencies from happening. Furthermore, one member of your team will be equipped with a walkie-talkie so that you may communicate with us at any time. You are permitted to leave the room at any time, but doing so will remove you from the game.
+        </p>
+        <p>
+          <b>Q: Will the room be scary or in any way frightening?</b>
+          <br>
+          A: No, our room has no elements of horror and is even child friendly.
+        </p>
+        <p>
+          <b>Q: Is there more than one room?</b>
+          <br>
+          A: No. Currently we only have one room. Should Yukoners and tourists give us enough business we hope to open a second one next year.
+        </p>
+        <p>
+          <b>Q: Am I allowed to tell people about the room's contents?</b>
+          <br>
+          A: No. It is not permitted to discuss the room's contents, puzzles, or challenges. Escape Rooms are like movies, if you spoil it then it's ruined. If you would like your friends to try the game and have fun, then do not spoil their exprience by giving away secrets and hints! Everyone is required to sign an agreement stating they will not reveal the contents of the room. Should the secrets be revealed, our business would not last. Please be considerate.
+        </p>
+        <p>
+          <b>Q: Is the escape room kid friendly?</b>
+          <br>
+          A: Yes! Anyone under the age of 16 may play but they must be accompanied by a guardian or parent. We do not suggest anyone younger than 10 years to play the game. It might be too hard for them.
+        </p>
+        <p>
+          <b>Q: Can I play alone?</b>
+          <br>
+          A: No. The game is made to be played with 2 to 5 people. Escape rooms are team games and usually require at least 2 people for many puzzles.
+        </p>
+        <p>
+          <b>Q: Is it better to play in larger teams?</b>
+          <br>
+          A: Not necessarily. If you want the room to be a trough challenge, then play as a two person team. If you want a challenge then play between 3 and 4 people. Teams of 5 will have an easier time beating the game.
+        </p>
+        <p>
+          <b>Q: Will a team of 5 be too easy?</b>
+          <br>
+          A: Some teams will beat the game quicker with a team of 5 and many teams will not beat it, even with 5 players. Sometimes it can be harder to play in larger teams, especially if people are talking over each other or do not work well as a team.
+        </p>
+        <p>
+          <b>Q: Is the escape room open in winter?</b>
+          <br>
+          A: No. Our escape room only operates from May until end of September. We do not have enough locals or tourists in the winter to merit a winter operation.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- CONTACT -->
 <section class="contact">
@@ -217,6 +336,9 @@
     <!-- Google map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl-EDTJ5_uU3zBIX7-wNTu-qSZr1DO5Dw"></script>
     <!-- Custom -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

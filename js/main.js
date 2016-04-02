@@ -95,15 +95,15 @@ $(window).load(function() {
 
     // To change date, simply edit: var endDate = "Dec 01, 2015 20:39:00";
 
-   $(function() {
-   var endDate = "Dec 01, 2015 20:39:00";
-  $('.countdown').countdown({
-          date: endDate,
-          render: function(data) {
-            $(this.el).html("<div>"  + this.leadingZeros(data.days, 3) + " <span>days</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>hours</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>minutes</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>seconds</span></div>");
-          }
-        });
-   });
+  //  $(function() {
+  //  var endDate = "Dec 01, 2015 20:39:00";
+  // $('.countdown').countdown({
+  //         date: endDate,
+  //         render: function(data) {
+  //           $(this.el).html("<div>"  + this.leadingZeros(data.days, 3) + " <span>days</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>hours</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>minutes</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>seconds</span></div>");
+  //         }
+  //       });
+  //  });
 
 /* ================================= */
 /* :::::::: 5. Contact form :::::::: */

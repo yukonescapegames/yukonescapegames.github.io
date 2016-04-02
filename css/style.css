@@ -889,3 +889,118 @@ footer a:hover {
 	background-position:center;
 }
 }
+
+
+
+/* NEW STYLES*/
+
+.q-and-a p {
+    text-align: center;
+    font-size: 13px;
+    word-spacing: 1px;
+    line-height: 25px;
+    padding-top: 5px;
+    color: #8c9398;
+}
+.q-and-a p b {
+    text-align: center;
+    font-size: 13px;
+    word-spacing: 1px;
+    line-height: 25px;
+    padding-top: 5px;
+    color: #64696D;
+}
+.q-and-a h2 {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    font-family: "iceberg", sans-serif;
+    margin-bottom: 30px;
+}
+.q-and-a .container .row {
+  margin-top: 50px;
+}
+
+.escape-room {
+  background-color: #3B3B3B;
+  padding-top: 50px;
+  padding-bottom: 65px;
+}
+
+.escape-room p{
+      text-align: center;
+      font-size: 13px;
+      word-spacing: 1px;
+      line-height: 25px;
+      padding-top: 5px;
+      color: #8c9398;
+}
+.escape-room h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  font-family: "iceberg", sans-serif;
+  margin-bottom: 30px;
+}
+.escape-room ul.room-details {
+  padding-left: 0px;
+}
+.escape-room ul.room-details li {
+  color: #8c9398;
+  list-style-type: none;
+  text-align: center;
+}
+.escape-room ul.room-details li strong {
+   color: #B2BAC0;
+ }
+
+
+/* NAV */
+
+nav.navbar-default {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-color: rgb(50, 50, 50);
+}
+.navbar-default .navbar-nav>li>a {
+    color: #CDCDCD;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #fff;
+    /*background-color: transparent;*/
+}
+/*.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}*/
+.navbar-nav {
+float:none;
+margin:0 auto;
+display: block;
+text-align: center;
+}
+
+.navbar-nav>li {
+display: inline-block;
+float:none;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    /* color: #555; */
+    background-color: #535353;
+}
