@@ -921,13 +921,14 @@ footer a:hover {
     margin-bottom: 30px;
 }
 .q-and-a .container .row {
-  margin-top: 50px;
+  margin-top: 80px;
+  margin-bottom: 75px;
 }
 
 .escape-room {
   background-color: #3B3B3B;
-  padding-top: 50px;
-  padding-bottom: 65px;
+  padding-top: 80px;
+  padding-bottom: 75px;
 }
 
 .escape-room p{
@@ -961,31 +962,58 @@ footer a:hover {
    color: #B2BAC0;
  }
 
+ .details ul.info {
+   padding-left: 0px;
+ }
+ .details ul.info li {
+   color: #8c9398;
+   list-style-type: none;
+   text-align: center;
+ }
+ .details ul.info li strong {
+    color: #363A3D;
+  }
+  .details p {
+    text-align: center;
+    font-size: 13px;
+    word-spacing: 1px;
+    line-height: 25px;
+    padding-top: 5px;
+  }
+  .details h2 {
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    font-family: "iceberg", sans-serif;
+    margin-bottom: 30px;
+  }
+  .details {
+    background-color: #f3f5f8;
+    padding-top: 50px;
+    padding-bottom: 65px;
+  }
 
 /* NAV */
 
 nav.navbar-default {
-    background-color: rgb(50, 50, 50);
+    background-color: rgba(70, 70, 70, 0.75);
     color: white;
     border-color: rgb(50, 50, 50);
 }
 .navbar-default .navbar-nav>li>a {
     color: #CDCDCD;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
 }
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
     color: #fff;
-    /*background-color: transparent;*/
-}
-/*.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
 }
 
-.navbar .navbar-collapse {
-  text-align: center;
-}*/
 .navbar-nav {
 float:none;
 margin:0 auto;
@@ -994,13 +1022,37 @@ text-align: center;
 }
 
 .navbar-nav>li {
-display: inline-block;
-float:none;
+  display: inline-block;
+  float:none;
+}
+
+.navbar-nav>li>a {
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    /* color: #555; */
+   color: #ffffff;
     background-color: #535353;
 }
+
+
+/* Media Override */
+
+.navbar {
+    min-height: 40px;
+}
+
+@media only screen and (max-width: 756px) {
+  header .logo img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px)
+{
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }}
