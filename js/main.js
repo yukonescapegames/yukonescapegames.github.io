@@ -23,26 +23,26 @@
 /* ================================= */
 
 
-  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    $(".player").hide();
-    $(".player-controls").hide();
-  }
-
-$(window).load(function() {
-
-    $(".loader-icon").delay(500).fadeOut();
-    $(".page-loader").delay(700).fadeOut("slow");
-
-    setTimeout(function() {
-    $(".logo").delay(1000).css({display: 'none'}).fadeIn(1000);
-    $("h1").delay(1000).css({display: 'none'}).fadeIn(1000);
-    $("p").delay(1000).css({display: 'none'}).fadeIn(1000);
-    $(".countdown").delay(1000).css({display: 'none'}).fadeIn(1000);
-    $(".mouse").delay(1000).css({display: 'none'}).fadeIn(1000);
-    });
-
-
-});
+//   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+//     $(".player").hide();
+//     $(".player-controls").hide();
+//   }
+//
+// $(window).load(function() {
+//
+//     $(".loader-icon").delay(500).fadeOut();
+//     $(".page-loader").delay(700).fadeOut("slow");
+//
+//     setTimeout(function() {
+//     $(".logo").delay(1000).css({display: 'none'}).fadeIn(1000);
+//     $("h1").delay(1000).css({display: 'none'}).fadeIn(1000);
+//     $("p").delay(1000).css({display: 'none'}).fadeIn(1000);
+//     $(".countdown").delay(1000).css({display: 'none'}).fadeIn(1000);
+//     $(".mouse").delay(1000).css({display: 'none'}).fadeIn(1000);
+//     });
+//
+//
+// });
 
 
 /* ================================= */
@@ -245,7 +245,7 @@ $(function(){
 
   //google map custom marker icon - .png fallback for IE11
   var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
-  var marker_url = ( is_internetExplorer11 ) ? 'images/icon-location.png' : 'images/icon-location.png';
+  var marker_url = ( is_internetExplorer11 ) ? 'images/map-marker-yellow.png' : 'images/map-marker-yellow.png';
 
   //define the basic color of your map, plus a value for saturation and brightness
   var main_color = '#2d313f',
@@ -448,7 +448,14 @@ $(function(){
       map: map,
       title: 'Yukon Escape Games',
       visible: true,
-      icon: marker_url,
+      icon: {
+        url: marker_url,
+    //     size: new google.maps.Size(64, 64),
+    //     origin: new google.maps.Point(0, 0),
+    // // The anchor for this image is the base of the flagpole at (0, 32).
+    // anchor: new google.maps.Point(0, 32)
+
+      },
   });
 
 

@@ -215,13 +215,13 @@ header .mouse a {
 /* :::::::::: 4. Services :::::::::: */
 /* ================================= */
 
-.services {
+.about-section {
 	padding: 150px 0 150px;
 	background-color: #fff;
 	z-index: 10;
 }
 
-.services .icon i.fa {
+.about-section .icon i.fa {
 	height: 175px;
 	width: 175px;
 	line-height: 175px;
@@ -239,38 +239,10 @@ header .mouse a {
 	color: rgba(255, 255, 255, 1);
 	margin: 0 auto 45px auto;
 	text-shadow: rgb(19, 155, 199) 1px 1px,
-	rgb(19, 155, 199) 2px 2px,
-	rgb(19, 155, 199) 3px 3px,
-	rgb(19, 155, 199) 4px 4px,
-	rgb(19, 155, 199) 5px 5px,
-	rgb(19, 155, 199) 6px 6px,
-	rgb(19, 155, 199) 7px 7px,
-	rgb(19, 155, 199) 8px 8px,
-	rgb(19, 155, 199) 9px 9px,
-	rgb(19, 155, 199) 10px 10px,
-	rgb(19, 155, 199) 11px 11px,
-	rgb(19, 155, 199) 12px 12px,
-	rgb(19, 156, 200) 13px 13px,
-	rgb(19, 158, 202) 14px 14px,
-	rgb(19, 159, 204) 15px 15px,
-	rgb(19, 161, 206) 16px 16px,
-	rgb(19, 162, 208) 17px 17px,
-	rgb(20, 164, 210) 18px 18px,
-	rgb(20, 165, 212) 19px 19px,
-	rgb(20, 167, 214) 20px 20px,
-	rgb(20, 168, 216) 21px 21px,
-	rgb(20, 170, 218) 22px 22px,
-	rgb(20, 171, 220) 23px 23px,
-	rgb(21, 173, 222) 24px 24px,
-	rgb(21, 174, 224) 25px 25px,
-	rgb(21, 176, 226) 26px 26px,
-	rgb(21, 177, 228) 27px 27px,
-	rgb(21, 179, 230) 28px 28px,
-	rgb(21, 180, 232) 29px 29px,
-	rgb(22, 182, 234) 30px 30px;
+	rgb(19, 155, 199) 2px 2px
 }
 
-.services h2 {
+.about-section h2 {
 	font-weight:600;
 	font-size: 15px;
 	text-align:center;
@@ -280,7 +252,7 @@ header .mouse a {
 	font-family: "iceberg", sans-serif;
 }
 
-.services h2:after {
+.about-section h2:after {
 	content: " ";
     border: solid 2px #16b6ea;
     display: block;
@@ -288,7 +260,7 @@ header .mouse a {
     margin: 20px auto;
 }
 
-.services p {
+.about-section p {
 	text-align:center;
 	font-size: 13px;
 	word-spacing: 1px;
@@ -563,7 +535,7 @@ header .mouse a {
   width: 32px;
   cursor: pointer;
   margin-left: 40px;
-  background-color: rgba(22, 182, 234, 0.9);
+  background-color: rgba(255, 203, 28, .75);
   background-repeat: no-repeat;
   background-size: 32px 64px;
   background-image: url("../images/icon-controller.svg");
@@ -574,7 +546,7 @@ header .mouse a {
 }
 
 #zoom-in:hover, #zoom-out:hover {
-  background-color: #16b6ea;
+  background-color: rgba(255, 203, 28, 1);
 
 }
 
@@ -1036,6 +1008,41 @@ text-align: center;
     background-color: #535353;
 }
 
+.contact input[type='submit'] {
+    border: 2px solid #F68524;
+}
+.contact input[type="submit"]:hover {
+    background: #F68524;
+    color: #fff;
+}
+
+
+.about-section .red-icon .icon i.fa {
+    background-color: rgba(237, 28, 36, 0.8);
+    text-shadow: rgb(213, 25, 32) 1px 1px,
+     rgb(213, 25, 32) 2px 2px,
+     rgb(213, 25, 32) 3px 3px;
+    color: rgba(255, 255, 255, 1);
+}
+.about-section .orange-icon .icon i.fa {
+	background: rgba(247, 133, 36, 0.8);
+	color: rgba(255, 255, 255, 1);
+  text-shadow: rgb(221, 120, 32) 1px 1px, rgb(221, 120, 32) 2px 2px, rgb(221, 120, 32) 3px 3px;
+}
+.about-section .yellow-icon .icon i.fa {
+  background: rgba(255, 203, 28, 0.8);
+	color: rgba(255, 255, 255, 1);
+  text-shadow: rgb(230, 183, 25) 1px 1px, rgb(230, 183, 25) 2px 2px, rgb(230, 183, 25) 3px 3px;
+}
+.about-section .red-icon h2:after {
+    border: solid 2px rgba(237, 28, 36, 1);
+}
+.about-section .orange-icon h2:after {
+    border: solid 2px rgba(247, 133, 36, 0.8);
+}
+.about-section .yellow-icon h2:after {
+    border: solid 2px rgba(255, 203, 28, 0.8);
+}
 
 /* Media Override */
 
@@ -1055,4 +1062,58 @@ text-align: center;
   .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
-    }}
+  }
+}
+
+.up-btn {
+  background: rgba(255, 203, 28, .5);
+}
+.up-btn:hover, .up-btn:active {
+  background: rgba(255, 203, 28, 1);
+}
+
+
+
+/* Test */
+
+.spinner {
+  margin: 250px auto 0;
+  width: 70px;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #F68524;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
