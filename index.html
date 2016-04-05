@@ -305,11 +305,13 @@
           <div class="col-md-12">
           <div id="note"></div>
             <div id="fields">
-                <form id="ajax-contact-form">
+                <form id="" action="https://formspree.io/escape@yukonescapegames.com" method="POST">
                   <input type="text" name="name" id="name" placeholder="Name" value="" data-sr="enter left move 25px, after 0.3s"/>
-                  <input type="email" name="email" id="email" placeholder="Email" value="" data-sr="enter right move 25px, after 0.3s"/>
+                  <input type="email" name="_replyto" id="email" placeholder="Email" value="" data-sr="enter right move 25px, after 0.3s"/>
                   <textarea name="msg" id="msg" placeholder="Message"  data-sr="enter bottom move 25px, after 0.3s"></textarea>
-                  <input type="submit" name="submit" id="submit" value="Send message" data-sr="wait 0.8s, then enter top and move 40px after 0.3s"/>
+                  <input type="text" name="_gotcha" style="display:none" />
+                  <input type="hidden" name="_subject" value="[Escape Room] - New message from yukonescapegames.com!" />
+                  <input type="submit" name="submit" id="submit" value="Send" data-sr="wait 0.8s, then enter top and move 40px after 0.3s"/>
                 </form>
              </div>
           </div>
