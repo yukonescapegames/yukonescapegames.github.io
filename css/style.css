@@ -385,9 +385,8 @@ header .mouse a {
 	font-family: "Iceberg", sans-serif;
 }
 
-
-.contact input[type='text'], .contact input[type='email'] {
-	width: 44%;
+.contact input[type='text'], .contact input[type='email'], .contact input[type='tel'] {
+	width: 100%;
 	background: transparent;
 	border-bottom: 2px solid #ddd;
 	border-top: none;
@@ -401,21 +400,11 @@ header .mouse a {
     transition: all 0.3s!important;
 }
 
-.contact input[type='email'] {
-	right: 15px;
-	position: absolute;
-	top: 0px;
-}
-
-.contact input[type='text'], .contact input[type='email']:focus {
+.contact input[type='text']:focus, .contact input[type='email']:focus, .contact input[type='tel']:focus {
 	border-bottom: 2px solid #bbb;
 	border-top: none;
-    border-left: none;
-    border-right: none;
-}
-
-.contact input[type='text'] {
-	width: 45.1%;
+  border-left: none;
+  border-right: none;
 }
 
 .contact textarea {
