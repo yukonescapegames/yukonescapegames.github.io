@@ -912,13 +912,25 @@ footer a:hover {
 .escape-room h2 {
   color: #fff;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 26px;
   text-align: center;
   letter-spacing: 1px;
   word-wrap: break-word;
   text-transform: uppercase;
   font-family: "iceberg", sans-serif;
   margin-bottom: 30px;
+}
+.escape-room h3.room-name {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  font-family: "iceberg", sans-serif;
+  margin-bottom: 30px;
+  margin-top: 40px;
 }
 .escape-room ul.room-details {
   padding-left: 0px;
