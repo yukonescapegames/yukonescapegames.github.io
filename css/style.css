@@ -899,8 +899,8 @@ footer a:hover {
   background-color: #3B3B3B;
   padding-top: 80px;
   padding-bottom: 75px;
+  height: 100%;
 }
-
 .escape-room p{
       text-align: center;
       font-size: 13px;
